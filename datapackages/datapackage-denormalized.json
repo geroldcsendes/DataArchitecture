@@ -1,0 +1,132 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "denormalized.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "inspection_id",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "date_recorded",
+            "type": "date",
+            "format": "default"
+          },
+          {
+            "name": "latitude",
+            "type": "geopoint",
+            "format": "default"
+          },
+          {
+            "name": "longitude",
+            "type": "geopoint",
+            "format": "default"
+          },
+          {
+            "name": "funder",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "installer",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "basin",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "construction_year",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "payment",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "extraction_type_class",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "quality_group",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "waterpoint_type_group",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "wpt_name",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "ws_id",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "status_group",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "gdp_percap",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "capital",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "pop_2012",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "pop_2018_proj",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "capital_coord",
+            "type": "geopoint",
+            "format": "default"
+          },
+          {
+            "name": "distance",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "ds-data-package",
+  "title": "pump-it-up",
+  "contributors": [
+    {
+      "title": "G Csendes",
+      "role": "author"
+    }
+  ]
+}
