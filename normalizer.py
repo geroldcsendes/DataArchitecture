@@ -8,6 +8,8 @@ Created on Mon Dec 23 08:23:31 2019
 import pandas as pd
 import numpy as np
 import sqlite3
+import time
+import timeit
 
 denormalized = pd.read_csv('./data-repo/cleaned/denormalized.csv')
 
@@ -103,3 +105,51 @@ admin_dim.to_sql('ADMIN', conn, if_exists='append', index=False)
 pump_dim.to_sql('PUMP', conn, if_exists='append', index=False)
 wpt_dim.to_sql('WPT', conn, if_exists='append', index=False)
 
+
+## JOIN PERFORMANCES
+
+
+# Check performance WITHOUT indexing 
+
+# Measure time
+comp_start = time.time()
+c.execute('''SELECT fact.*, admin.payment, pump.*, wpt.* FROM FACT as fact
+          INNER JOIN ADMIN as admin on admin.ws_id
+          INNER JOIN PUMP as pump on pump.ws_id
+          INNER JOIN WPT as wpt on wpt.ws_id
+          ''')
+comp_end = time.time()
+comp_time = comp_end - comp_start # 0.00099802 secs
+
+# This returns zero second many times which may due to the fact that sqlite 
+# might cache the joins. I am not sure about this so I will stick to this time
+
+# Create indexes
+fact_index = ('CREATE INDEX fact_index ON FACT (ws_id)')
+admin_index = ('CREATE INDEX admin_index ON ADMIN (ws_id)')
+pump_index = ('CREATE INDEX pump_index on PUMP (ws_id)')
+wpt_index = ('CREATE INDEX wpt_index on WPT (ws_id)')
+
+# Execute indexes
+c.execute(fact_index)
+c.execute(admin_index)
+c.execute(pump_index)
+c.execute(wpt_index)
+
+# Check performance WITH indexing 
+
+# Measure time
+index_start = time.time()
+c.execute('''SELECT fact.*, admin.payment, pump.*, wpt.* FROM FACT as fact
+          INNER JOIN ADMIN as admin on admin.ws_id
+          INNER JOIN PUMP as pump on pump.ws_id
+          INNER JOIN WPT as wpt on wpt.ws_id
+          ''')
+index_end = time.time()
+index_time = index_end - index_start # 0.0009975 secs
+
+# There seems to hardly any difference. It may due to the relative small number
+# of records or the indexing within sqlite python may work differently.
+
+# Close connection
+conn.close()
