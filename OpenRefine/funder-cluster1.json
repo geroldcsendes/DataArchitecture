@@ -1,0 +1,850 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "funder",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Quick Wings",
+          "Quick Wins",
+          "Quick Win"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quick Wings"
+      },
+      {
+        "from": [
+          "Germany Misionary",
+          "German Missionary",
+          "Germany Missionary"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany Misionary"
+      },
+      {
+        "from": [
+          "Roman Cathoric-same",
+          "Roman Cathoric Same",
+          "Roman Cathoric"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Roman Cathoric-same"
+      },
+      {
+        "from": [
+          "Quick Wings",
+          "Quick Wins",
+          "Tquick Wings"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quick Wings"
+      },
+      {
+        "from": [
+          "Villagers",
+          "Village",
+          "Villages"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Villagers"
+      },
+      {
+        "from": [
+          "Rotary Club",
+          "Lottery Club",
+          "Lotary Club"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rotary Club"
+      },
+      {
+        "from": [
+          "African",
+          "Africare",
+          "Africa"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "African"
+      },
+      {
+        "from": [
+          "Netherlands",
+          "Netherland",
+          "Netherla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Netherlands"
+      },
+      {
+        "from": [
+          "Singida Yetu",
+          "Sindida Yetu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Singida Yetu"
+      },
+      {
+        "from": [
+          "The People Of Japan",
+          "People Of Japan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The People Of Japan"
+      },
+      {
+        "from": [
+          "Village Community",
+          "Village Communi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Village Community"
+      },
+      {
+        "from": [
+          "Fin Water",
+          "Finn Water"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fin Water"
+      },
+      {
+        "from": [
+          "Piscop",
+          "Piscope"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Piscop"
+      },
+      {
+        "from": [
+          "Noshad",
+          "Noshadi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Noshad"
+      },
+      {
+        "from": [
+          "Village Contributio",
+          "Villlage Contributi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Village Contributio"
+      },
+      {
+        "from": [
+          "Makonde Water Population",
+          "Makondakonde Water Population"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Makonde Water Population"
+      },
+      {
+        "from": [
+          "Government /tassaf",
+          "Government/tassaf"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Government /tassaf"
+      },
+      {
+        "from": [
+          "Private Individual",
+          "Private Individul"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Private Individual"
+      },
+      {
+        "from": [
+          "Tassaf",
+          "Tassaf I"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tassaf"
+      },
+      {
+        "from": [
+          "Msikiti",
+          "Msikitini"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Msikiti"
+      },
+      {
+        "from": [
+          "Kanisa",
+          "Kanisani"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kanisa"
+      },
+      {
+        "from": [
+          "Pentecost",
+          "Pentecostal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pentecost"
+      },
+      {
+        "from": [
+          "Irevea Sister",
+          "Irevea Sister Water"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Irevea Sister"
+      },
+      {
+        "from": [
+          "Rc Mission",
+          "Rc Missi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rc Mission"
+      },
+      {
+        "from": [
+          "Pentecosta Church",
+          "Pentecostal Church"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Pentecosta Church"
+      },
+      {
+        "from": [
+          "Water Aid /sema",
+          "Water Aid/sema"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Water Aid /sema"
+      },
+      {
+        "from": [
+          "Rc Church",
+          "Rc Churc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rc Church"
+      },
+      {
+        "from": [
+          "Baptist Church",
+          "Batist Church"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Baptist Church"
+      },
+      {
+        "from": [
+          "Tassaf I",
+          "Tassaf Ii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tassaf I"
+      },
+      {
+        "from": [
+          "Magadini-makiwaru Water",
+          "Magadini Makiwaru Water"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Magadini-makiwaru Water"
+      },
+      {
+        "from": [
+          "Regwa Company Of Egypt",
+          "Regwa Company Of Egpty"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Regwa Company Of Egypt"
+      },
+      {
+        "from": [
+          "Hesawz",
+          "Hesawza"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hesawz"
+      },
+      {
+        "from": [
+          "Government/ Community",
+          "Government And Community"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Government/ Community"
+      },
+      {
+        "from": [
+          "Uhoranzi",
+          "Mhoranzi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Uhoranzi"
+      },
+      {
+        "from": [
+          "Mkinga Distric Coun",
+          "Mkinga  Distric Cou"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mkinga Distric Coun"
+      },
+      {
+        "from": [
+          "Handeni Trunk Main(",
+          "Handeni Trunk Maini"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Handeni Trunk Main("
+      },
+      {
+        "from": [
+          "Oikos E.Africa/european Union",
+          "Oikos E .Africa/european Union"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Oikos E.Africa/european Union"
+      },
+      {
+        "from": [
+          "Roman Cathoric-same",
+          "Roman Cathoric Same"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Roman Cathoric-same"
+      },
+      {
+        "from": [
+          "National Rural",
+          "National Rural (wb)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "National Rural"
+      },
+      {
+        "from": [
+          "Zao Water Spring",
+          "Zao Water Spring X"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Zao Water Spring"
+      },
+      {
+        "from": [
+          "Government",
+          "Vgovernment"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Government"
+      },
+      {
+        "from": [
+          "The Isla",
+          "The Islamic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Isla"
+      },
+      {
+        "from": [
+          "Private",
+          "Private Co"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Private"
+      },
+      {
+        "from": [
+          "Songea District Council",
+          "Sangea District Council"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Songea District Council"
+      },
+      {
+        "from": [
+          "Water Aid/sema",
+          "Wate Aid/sema"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Water Aid/sema"
+      },
+      {
+        "from": [
+          "Netherlands",
+          "Netherland"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Netherlands"
+      },
+      {
+        "from": [
+          "Bukwang Church Saint",
+          "Bukwang Church Saints"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Bukwang Church Saint"
+      },
+      {
+        "from": [
+          "Semaki K",
+          "Semaki"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Semaki K"
+      },
+      {
+        "from": [
+          "World Vision",
+          "Worldvision"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "World Vision"
+      },
+      {
+        "from": [
+          "Rotary I",
+          "Rotary"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rotary I"
+      },
+      {
+        "from": [
+          "Tassaf Ii",
+          "Tasaf Ii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tassaf Ii"
+      },
+      {
+        "from": [
+          "Serikali Ya Kijiji",
+          "Selikali Ya Kijiji"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Serikali Ya Kijiji"
+      },
+      {
+        "from": [
+          "Village Res",
+          "Villages"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Village Res"
+      },
+      {
+        "from": [
+          "Plan Internatio",
+          "Plan International"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Plan Internatio"
+      },
+      {
+        "from": [
+          "Rural Water Supply And Sanitat",
+          "Rural Water Supply And Sanita"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rural Water Supply And Sanitat"
+      },
+      {
+        "from": [
+          "Rotary Club",
+          "Lotary Club"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rotary Club"
+      },
+      {
+        "from": [
+          "Quickwi",
+          "Quickwins"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Quickwi"
+      },
+      {
+        "from": [
+          "Women For Partnership",
+          "Women Fo Partnership"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Women For Partnership"
+      },
+      {
+        "from": [
+          "Halmashauri",
+          "Halmashaur"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Halmashauri"
+      },
+      {
+        "from": [
+          "Samwel",
+          "Samweli"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Samwel"
+      },
+      {
+        "from": [
+          "Wua And Ded",
+          "Wug And Ded"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wua And Ded"
+      },
+      {
+        "from": [
+          "Serikari",
+          "Serikaru"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Serikari"
+      },
+      {
+        "from": [
+          "Japan Food",
+          "Japan Food Aid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Japan Food"
+      },
+      {
+        "from": [
+          "Halmashauli",
+          "Halimashauli"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Halmashauli"
+      },
+      {
+        "from": [
+          "German Missionary",
+          "Germany Missionary"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "German Missionary"
+      },
+      {
+        "from": [
+          "Institution",
+          "Institutional"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Institution"
+      },
+      {
+        "from": [
+          "Christian Outrich",
+          "Christan Outrich"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Christian Outrich"
+      },
+      {
+        "from": [
+          "Germany Misionary",
+          "Germany Missionary"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany Misionary"
+      },
+      {
+        "from": [
+          "Oikos E.Africa/european Union",
+          "Oikos E.Africa/ European Union"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Oikos E.Africa/european Union"
+      },
+      {
+        "from": [
+          "Tag Church",
+          "Tag Church Ub"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tag Church"
+      },
+      {
+        "from": [
+          "African Relie",
+          "Afriican Reli"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "African Relie"
+      },
+      {
+        "from": [
+          "Lions Club",
+          "Lions C"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lions Club"
+      },
+      {
+        "from": [
+          "Rc Mission",
+          "Rc Missionary"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Rc Mission"
+      },
+      {
+        "from": [
+          "Wfp/usaid/tnt",
+          "Wfp/usaid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wfp/usaid/tnt"
+      },
+      {
+        "from": [
+          "Halimashau",
+          "Halimashauli"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Halimashau"
+      },
+      {
+        "from": [
+          "Norad/ Tassaf",
+          "Norad/ Tassaf Ii"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Norad/ Tassaf"
+      },
+      {
+        "from": [
+          "Norad /government",
+          "Norad/government"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Norad /government"
+      },
+      {
+        "from": [
+          "Halmashauri",
+          "Halmashauri Wil"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Halmashauri"
+      },
+      {
+        "from": [
+          "Domestic Rural Development Pro",
+          "Domestic Rural Development Pr"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Domestic Rural Development Pro"
+      },
+      {
+        "from": [
+          "Marafip",
+          "Marafin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Marafip"
+      },
+      {
+        "from": [
+          "Morovian",
+          "Morrovian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Morovian"
+      },
+      {
+        "from": [
+          "Makonde",
+          "Makonder"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Makonde"
+      },
+      {
+        "from": [
+          "Arabs Community",
+          "Arab Community"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Arabs Community"
+      },
+      {
+        "from": [
+          "Tag Church",
+          "Pag Church"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tag Church"
+      },
+      {
+        "from": [
+          "Totoland Care",
+          "Totaland Care"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Totoland Care"
+      },
+      {
+        "from": [
+          "Village Council",
+          "Villege Council"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Village Council"
+      },
+      {
+        "from": [
+          "Swisland/ Mount Meru Flowers",
+          "Swisland/mount Meru Flowers"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Swisland/ Mount Meru Flowers"
+      },
+      {
+        "from": [
+          "Institutional",
+          "Insititutiona"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Institutional"
+      },
+      {
+        "from": [
+          "Mission",
+          "Missio"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mission"
+      },
+      {
+        "from": [
+          "Losaa-kia Water Supply",
+          "Losakia Water Supply"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Losaa-kia Water Supply"
+      },
+      {
+        "from": [
+          "Institutional",
+          "Insututional"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Institutional"
+      },
+      {
+        "from": [
+          "Wamisionari Wa Kikatoriki",
+          "Wamissionari Wa Kikatoriki"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Wamisionari Wa Kikatoriki"
+      }
+    ],
+    "description": "Mass edit cells in column funder"
+  }
+]

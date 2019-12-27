@@ -1,0 +1,17 @@
+# RStudio stuff
+.Rproj/*
+.Rproj.user/*
+.Rhistory
+*.Rproj
+
+# Spyder stuff
+.spyproject/*
+
+# Jupyter stuff
+geo/.ipynb_checkpoints/*
+
+# My notes
+notes.docx
+
+# Data Structures comparison
+data-repo/structures_comparison/*

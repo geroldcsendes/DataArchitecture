@@ -1,0 +1,30 @@
+Flowchart: 
+graph LR
+    AA[Train features] -->|DrivenData| B(ABT)
+    AB[Train lables] -->|DrivenData| B(ABT)
+    BB[Distance] -->|Here API| B(ABT)
+    B -->|Train model| D[Ensemble methods]
+    B -->|Train model| E[Logistic regression]
+    B -->|Train model|F[Random forest]
+    D -->|Apply model| G[Test features]
+    E -->|Apply model| G[Test features]
+    F -->|Apply model| G[Test features]
+    H[Capitals] --> |capital_coords| BB
+    AA --> |station_coords| BB
+
+Class: 
+classDiagram
+owner "one" ..> "many" water_station: intersect
+owner : name
+water_station: longitude
+water_station: latitude
+water_station "one" -- "one" region
+region: name
+region: capital
+region: longitude
+region: latitude
+water_station "one" -- "one" basin
+basin: name
+basin: longitude
+basin: latitude
+
