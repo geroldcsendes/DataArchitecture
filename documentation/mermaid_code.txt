@@ -1,3 +1,4 @@
+############### Conceptual ############### 
 Flowchart: 
 graph LR
     AA[Train features] -->|DrivenData| B(ABT)
@@ -27,4 +28,36 @@ water_station "one" -- "one" basin
 basin: name
 basin: longitude
 basin: latitude
+############### Conceptual ############### 
 
+############### Report ############### 
+graph TB
+  subgraph Scraped
+    Z1[Population]
+    Z2[Regions]
+  end
+  subgraph Datahub
+    Z3[GDP]
+  end
+  subgraph GEO API
+    Z4[Distances]
+  end
+  Z1 --> A2
+  Z2 --> A2
+  Z3 --> A2
+  Z4 --> A2
+  subgraph Raw
+    A1[DrivenData] -->|clean| B1[DrivenData]
+    A2[ExternalData] -->|clean| B2[ExternalData]
+  end
+  subgraph Cleaned
+    B1[DrivenData] -->  |join| C1(Denormalized)
+    B2[ExternalData] --> |join| C1(Denormalized)
+  end
+  subgraph Normalized
+    C1(Denormalized) --> |normalize| D1[fact]
+    C1(Denormalized) --> |normalize| D2[admin]
+    C1(Denormalized) --> |normalize| D3[wpt]
+    C1(Denormalized) --> |normalize| D4[pump]
+  end
+############### Report ############### 
