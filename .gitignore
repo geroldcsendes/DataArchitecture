@@ -15,3 +15,7 @@ notes.docx
 
 # Data Structures comparison
 data-repo/structures_comparison/*
+.Rproj.user
+
+# Temp files
+*.tmp
