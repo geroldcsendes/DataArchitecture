@@ -33,11 +33,13 @@ basin: latitude
 ############### Report ############### 
 graph TB
   subgraph Scraped
-    Z1[Population]
-    Z2[Regions]
-  end
-  subgraph Datahub
-    Z3[GDP]
+    subgraph CityPopulation
+       Z1[Population]
+       Z2[Regions]
+    end
+    subgraph Wikipedia
+      Z3[GDP]
+    end
   end
   subgraph GEO API
     Z4[Distances]
