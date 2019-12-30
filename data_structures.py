@@ -14,7 +14,6 @@ Created on Mon Dec 23 14:03:46 2019
 import pandas as pd
 import numpy as np
 import time
-
 import json
 import pyarrow
 
